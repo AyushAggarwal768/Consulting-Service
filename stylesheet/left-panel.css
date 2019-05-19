@@ -1,0 +1,76 @@
+/* @group Modules */
+.moduletable, .moduletable_menu, .moduletable_text, .moduletable-latestnews,
+.moduletable-grey, .moduletablestat, .moduletablesitelinks, .moduletablelogin, .moduletablesubcat{
+    margin-bottom:20px;
+}
+#bottom .moduletable{
+    margin-bottom: 0;
+}
+
+
+.moduletable h3, .moduletable_menu h3, .moduletable_text h3, .moduletable-latestnews h3, .contentheading,
+#sidebar h2, #sidebar h3, #recent-posts h2, #recent-feeds h2,#subcats h2,.com_zine #mainbody h3,
+#index h1,#listing h2, #listing h3, .reviews .title, .moduletablesubcat h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #13274A;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 2px;
+}
+#sidebar h3 a{
+    color: #13274A;
+}
+#sidebar h3,#sidebar h2,#recent-feeds h2, #listing h3{
+    font-size: 17px;
+}
+
+
+#sidebar ul{
+    margin-left: 0;
+    list-style: none;
+}
+#sidebar ul ul,
+#sidebar .moduletable-latestnews ul{
+    background: rgb(242,242,242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(255,255,255,1) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(242,242,242,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+}
+#sidebar ul ul ul,
+#sidebar .moduletable-latestnews ul ul{
+    background: transparent;
+}
+#sidebar ul li{
+    border-bottom: 1px solid #EEE
+}
+#sidebar ul ul li:first-of-type{
+    border-top: 1px solid #EEE
+}
+#sidebar ul ul li:last-of-type{
+    border-bottom: 0;
+}
+#sidebar ul li a{
+    display: block;
+    padding: 4px;
+    color: green;
+    text-decoration: none;
+}
+#sidebar ul ul li a{
+    padding: 4px 4px 4px 15px;
+    font-size: 12px;
+}
+#sidebar ul ul ul li a{
+    padding: 4px 4px 4px 30px;
+}
+#sidebar ul li a:hover{
+    background: #F6F6F6;
+    color: #218cd3;
+}
+#sidebar ul li a:active{
+    background: #F1F1F1;
+}

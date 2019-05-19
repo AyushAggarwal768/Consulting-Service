@@ -1,0 +1,224 @@
+.boldmatter{
+    color: #232323;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.teamname{
+    color: #232323;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+/*Content box */
+.text{
+    font-size: 12px;
+    font-weight: normal;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+
+
+.heading {
+    font-size:16px;
+    font-weight:bold;
+    color: #232323;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #E5E5E5;
+}
+
+.heading:hover {
+    color:#FF0000;
+}
+
+.text_wrap {
+    width:390px;
+    height: auto;
+    margin:0;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.pro_text {
+    font-size:11px;
+    color:#636363;
+    text-decoration:none;
+    float:left;
+}
+.input_text{
+    width: 200px;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    padding: 2px;
+    color: #636363;
+
+}
+
+.input-textarea{
+    width: 200px;
+    font-size: 12px;
+    font-weight: normal;
+    height: 60px;
+    padding: 2px;
+    color: #636363;
+}
+h1.signInHead{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    background:#999 url(../images/header-gradient.jpg) repeat-x scroll left center;
+    height:17px;
+    margin:20px 0;
+    padding:5px 10px;
+}
+h2.signInHead{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    background:#999 url(../images/header-gradient.jpg) repeat-x scroll left center;
+    height:17px;
+    margin:0;
+    padding:5px 10px;
+}
+
+.handshape{
+    cursor:pointer;
+    font-size:12px;
+    font-weight:bold;
+    /*    text-align:center;*/
+    color:#22749f;
+    text-decoration: none;
+    background-image: none;
+}
+.handshape_red{
+    cursor:pointer;
+    font-size:12px;
+    font-weight:bold;
+    /*    text-align:center;*/
+    color:maroon;
+    text-decoration: none;
+    background-image: none;
+}
+
+.red_font_bold{
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.red_font{
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.green_font{
+    text-decoration: none;
+    color: darkgreen;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.mandetory{
+    color: maroon;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img{
+    border: #ffffff;
+    background-image: none;
+}
+
+/* add to cart */
+.pageHead{color:#555;float:left;font-size:16px;font-weight:bold;}
+#cartDetails .proceedToCheckout{float:right;}
+.cartInfo .cartSubtotal{color:#555;float:left;font-size:14px;font-weight:bold;padding-top:5px;}
+.cartInfo .oneClick{float:right;font-size:11px;padding-top:3px;}
+#buyNowForm div.cartItems{float:left;padding-top:10px;width:755px;}
+
+.activeItemsHead{
+    background-color:#EEE;
+    border-top:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    color:#444;
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+    padding:5px 11px;
+    width:98%;
+    margin-bottom:-1px;}
+
+hr{
+    border: 1px solid #CCC;
+}
+.content{
+    color:#555;
+    font-size:14px;
+    font-weight:normal;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.autocart{
+    /*    color:#232323;*/
+    color: darkgreen;
+    font-size:14px;
+    font-weight:bold;
+    padding: 5px 5px 5px 5px;
+}
+.button{
+    color:#232323;
+    font-size:12px;
+    font-weight:bold;
+    padding: 3px 3px 3px 3px;
+}
+
+.message{
+    background-color:#EEE;
+    border :1px solid #CCC;
+    color:#444;
+    font-size:16px;
+    font-weight:bold;
+    padding:5px 11px;
+    width:698px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.message .readyToBuy{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: darkgreen;
+}
+.message .failed{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: maroon;
+}
+
+
+
+.pro_des{
+    background-color:#EEF3DE;
+    border :1px solid #ACC174;
+    color:#444;
+    font-size:13px;
+    font-weight:normal;
+    padding:10px 11px 10px 10px;
+    width:520px;
+}
+.pro_des .des{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #232323;
+}
